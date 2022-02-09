@@ -1,12 +1,12 @@
 package tech.lpdev;
 
+import lombok.Getter;
 import tech.lpdev.gui.OptionMenu;
 import tech.lpdev.hidden.Private;
-import lombok.Getter;
+import tech.lpdev.managers.DatabaseManager;
 import tech.lpdev.objects.Course;
 import tech.lpdev.objects.Staff;
 import tech.lpdev.objects.Student;
-import tech.lpdev.managers.DatabaseManager;
 
 import javax.swing.*;
 import java.awt.*;
