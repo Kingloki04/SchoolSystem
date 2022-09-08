@@ -6,8 +6,8 @@ import com.mongodb.client.model.ReplaceOptions;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
-import tech.lpdev.managers.DatabaseManager;
 import org.bson.Document;
+import tech.lpdev.managers.DatabaseManager;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -49,7 +49,7 @@ public class  Staff {
      * Initializes the staff objects in the map
      */
     public static void initialize() {
-        try (MongoCursor<Document> cursor = DatabaseManager.getCollection("Staff").find().iterator()) {
+        try (MongoCursor<org.bson.Document> cursor = DatabaseManager.getCollection("Staff").find().iterator()) {
             while (cursor.hasNext()) {
                 Document document = cursor.next();
                 Staff staff = new Staff(

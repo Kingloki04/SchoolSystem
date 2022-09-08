@@ -29,7 +29,7 @@ public class SearchStaff {
         frame.add(panel);
 
         panel.setLayout(null);
-        panel.setBackground(Color.gray);
+        panel.setBackground(Color.LIGHT_GRAY);
 
         searchLabel.setBounds(0, 50, 800, 25);
         searchLabel.setHorizontalAlignment(SwingConstants.CENTER);

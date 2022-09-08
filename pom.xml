@@ -15,9 +15,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.example</groupId>
-            <artifactId>primary-tools</artifactId>
-            <version>1.5</version>
+            <groupId>tech.lpdev</groupId>
+            <artifactId>utils</artifactId>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 
